@@ -43,6 +43,7 @@ class DJLInvocationsAPI(TemplateAPI):
             return {
                 "inputs": messages,
                 "parameters": gen_kwargs,
+                "adapters": "adapter1",
             }
         else:
             return {
@@ -56,6 +57,7 @@ class DJLInvocationsAPI(TemplateAPI):
                     "details": True,
                     "decoder_input_details": True,
                 },
+                "adapters": "adapter1",
             }
 
     @staticmethod
