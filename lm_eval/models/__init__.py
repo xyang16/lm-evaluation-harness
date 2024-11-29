@@ -1,6 +1,5 @@
 from . import (
     anthropic_llms,
-    api_models,
     dummy,
     gguf,
     hf_vlms,
@@ -15,8 +14,8 @@ from . import (
     textsynth,
     vllm_causallms,
     vllm_vlms,
+    djl,
 )
-
 
 # TODO: implement __all__
 
